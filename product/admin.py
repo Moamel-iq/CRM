@@ -3,7 +3,7 @@ from import_export.admin import ImportExportModelAdmin
 from django.contrib import admin
 from django.utils.html import format_html
 
-from .models import Category, Product, Unit
+from .models.product import Category, Product, Unit
 
 
 @admin.register(Product)

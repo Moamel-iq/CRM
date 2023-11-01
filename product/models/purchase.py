@@ -1,6 +1,6 @@
 from django.db import models
 from django.utils.timezone import now
-from product.models import Product
+from product.models.product import Product
 from hr.models import Supplier
 from abstract import random
 from abstract.utils.models import Timestamp

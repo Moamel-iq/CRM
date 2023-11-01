@@ -1,5 +1,5 @@
 from django.db import models
-from product.models import Order
+from product.models.order import Order
 from abstract.utils.models import Timestamp
 
 

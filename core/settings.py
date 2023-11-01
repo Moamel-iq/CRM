@@ -38,9 +38,12 @@ INSTALLED_APPS = [
     'account',
     'abstract',
     'hr',
+    'product',
 
     "phonenumber_field",
     "django_countries",
+    'ckeditor',
+    'import_export',
 ]
 
 MIDDLEWARE = [

@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'abstract',
     'hr',
     'product',
+    'analytics',
 
     "phonenumber_field",
     "django_countries",

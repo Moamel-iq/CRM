@@ -9,8 +9,8 @@ class CategoryExpense(Timestamp):
         return self.name
 
     class Meta:
-        verbose_name = 'Category'
-        verbose_name_plural = 'Categories'
+        verbose_name = 'Category Expense'
+        verbose_name_plural = 'Categories Expense'
 
 
 class Expense(Timestamp):
